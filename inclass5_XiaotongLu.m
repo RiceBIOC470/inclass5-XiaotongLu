@@ -11,7 +11,7 @@
 
 %XiaotongLu(a)
 
-I=imageread('rabbit.jpg')
+I=imread('C:\users\win\desktop\rabbit.jpg')
 figure
 imshow(I)
 imag=Stretchlim(I);
