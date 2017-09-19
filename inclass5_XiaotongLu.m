@@ -1,3 +1,6 @@
+%AW: looks good. see minor comment below. 1/1.
+
+
 %Inclass assignment 5.
 
 % 1. (a) Write a function that reads in an image and displays it so that 1%
@@ -37,7 +40,10 @@ imshow(imag3)
 %if nargin==2
 %   J3=Stretchlim2(I,x);
 %elseif nargin==1
-%       x=0.01;
+%       x=0.01; 
+
+%AW: why define x here? you don't use it.
+
 %J3=Stretchlim(I) 
 %else 
 %    error('must have one or two inputs');
